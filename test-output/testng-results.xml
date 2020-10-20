@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="The Internet Test Suite" duration-ms="17309" started-at="2020-10-20T18:50:11Z" finished-at="2020-10-20T18:50:29Z">
+    <groups>
+    </groups>
+    <test name="The Internet websiteTests" duration-ms="17309" started-at="2020-10-20T18:50:11Z" finished-at="2020-10-20T18:50:29Z">
+      <class name="PagesTheInternetHerokuApp.HomePage">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:PagesTheInternetHerokuApp.HomePage@224edc67]" name="initiateBrowser" is-config="true" duration-ms="15301" started-at="2020-10-20T19:50:11Z" finished-at="2020-10-20T19:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="clickAbTestingLink()[pri:0, instance:PagesTheInternetHerokuApp.HomePage@224edc67]" name="clickAbTestingLink" duration-ms="865" started-at="2020-10-20T19:50:27Z" finished-at="2020-10-20T19:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAbTestingLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PagesTheInternetHerokuApp.HomePage@224edc67]" name="tearDown" is-config="true" duration-ms="1075" started-at="2020-10-20T19:50:28Z" finished-at="2020-10-20T19:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PagesTheInternetHerokuApp.HomePage -->
+    </test> <!-- The Internet websiteTests -->
+  </suite> <!-- The Internet Test Suite -->
+</testng-results>

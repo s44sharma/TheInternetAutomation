@@ -32,5 +32,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/eclipse/configuration/org.eclipse.osgi/980/0/.cp/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/configuration/org.eclipse.osgi/980/0/.cp/lib/jcommander.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/configuration/org.eclipse.osgi/980/0/.cp/lib/snakeyaml.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/configuration/org.eclipse.osgi/980/0/.cp/lib/testng.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

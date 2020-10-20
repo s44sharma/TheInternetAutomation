@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [The Internet Test Suite]">
+  <test name="The Internet websiteTests(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="PagesTheInternetHerokuApp.HomePage">
+        <methods>
+          <include name="initiateBrowser"/>
+          <include name="clickAbTestingLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PagesTheInternetHerokuApp.HomePage -->
+    </classes>
+  </test> <!-- The Internet websiteTests(failed) -->
+</suite> <!-- Failed suite [The Internet Test Suite] -->

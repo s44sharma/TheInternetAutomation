@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TheInternetHerokuApp Test Suite">
-  <test name="TheInternetHerokuAppTests">
-  </test> <!-- TheInternetHerokuAppTests -->
-</suite> <!-- TheInternetHerokuApp Test Suite -->
+<suite name="The Internet Test Suite">
+  <test name="The Internet websiteTests">
+  
+  <parameter name = "Browser" value = "Chrome" />
+  
+    <classes>
+      <class name="PagesTheInternetHerokuApp.HomePage"/>
+    </classes>
+  </test> <!-- The Internet websiteTests -->
+</suite> <!-- The Internet Test Suite -->
