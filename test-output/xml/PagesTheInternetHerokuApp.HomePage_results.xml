@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="The Internet websiteTests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.622">
+  <properties />
+  
+  
+            <testcase name="clickAddRemoveElemntsLink" time="4.358" classname="PagesTheInternetHerokuApp.HomePage" />
+                <testcase name="clickAbTestingLink" time="3.264" classname="PagesTheInternetHerokuApp.HomePage" />
+      
+</testsuite>

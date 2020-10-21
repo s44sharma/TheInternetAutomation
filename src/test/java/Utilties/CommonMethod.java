@@ -16,7 +16,7 @@ public class CommonMethod {
 	public void initiateBrowser(String browser) throws InterruptedException {
 if (browser.equals("Chrome"))
 {
-		System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 else{
@@ -24,9 +24,9 @@ else{
 	driver = new FirefoxDriver();
 }
 
-driver.get("http://the-internet.herokuapp.com/");
-driver.manage().window().maximize(); 
-	}
+
+}
+
 
 @AfterMethod (groups = {"Smoke","Regression"})
 	public void tearDown() {
