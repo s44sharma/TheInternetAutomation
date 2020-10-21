@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="The Internet Test Suite">
+
+<groups>
+<run>
+<include name = "Smoke"/>
+<include name = "Regression"/>
+</run>
+</groups>
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
   <test name="The Internet websiteTests">
   
   <parameter name = "Browser" value = "Chrome" />
   
     <classes>
       <class name="PagesTheInternetHerokuApp.HomePage"/>
+      <class name="PagesTheInternetHerokuApp.ForgotPasswordPage"/>
+      
     </classes>
   </test> <!-- The Internet websiteTests -->
 </suite> <!-- The Internet Test Suite -->
